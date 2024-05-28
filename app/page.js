@@ -14,6 +14,7 @@ export default function Home() {
       </div>
       <div className="absolute bottom-0 left-0 w-full h-24 transform -skew-y-6 origin-bottom-right" style={{ background: '#105387' }}></div>
       <div className="absolute bottom-0 left-0 w-full h-16 transform -skew-y-6 origin-bottom-right" style={{ background: '#548aae' }}></div>
+      <p></p>
     </div>
   );
 }
