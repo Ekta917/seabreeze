@@ -12,8 +12,8 @@ export default function Home() {
         <p className="text-xl mb-8" style={{ color: '#105387' }}>We are working hard to bring you our new website.</p>
         <div className="w-16 h-16 border-4 border-blue-400 border-dashed rounded-full animate-spin"></div>
       </div>
-      <div className="absolute bottom-0 left-0 w-full h-24 bg-blue-800 transform -skew-y-6 origin-bottom-right"></div>
-      <div className="absolute bottom-0 left-0 w-full h-16 bg-blue-400 transform -skew-y-6 origin-bottom-right"></div>
+      <div className="absolute bottom-0 left-0 w-full h-24 transform -skew-y-6 origin-bottom-right" style={{ background: '#105387' }}></div>
+      <div className="absolute bottom-0 left-0 w-full h-16 transform -skew-y-6 origin-bottom-right" style={{ background: '#548aae' }}></div>
     </div>
   );
 }
